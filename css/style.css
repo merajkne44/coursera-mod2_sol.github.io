@@ -1,0 +1,249 @@
+body{
+	margin: 0px;
+	padding: 10px 10px 10px;
+}
+h1{
+	text-align: center;
+}
+.row{
+	width: 100%;
+}
+.box1{
+	margin: 10px;
+	float: left;
+	background-color: lightblue;
+	padding: 30px 5px 0px 10px;
+	border: 1px solid black;
+	width: 400px;
+	box-sizing: border-box;
+	height: 300px;
+	position: relative;
+	overflow: auto;
+		
+}
+.box4{
+	background-color: red;
+	height: 30px;
+	width: 60px;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+.box2{
+	margin: 10px;
+	float: left;
+	background-color: grey;
+	padding: 30px 5px 0px 10px;
+	border: 1px solid black;
+	width: 400px;
+	box-sizing: border-box;
+	height: 300px;
+	position: relative;
+	overflow: auto;
+		
+}
+.box5{
+	background-color: green;
+	height: 30px;
+	width: 60px;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+.box3{
+	margin: 10px;
+	float: left;
+	background-color: red;
+	padding: 25px 5px 0px 10px;
+	border: 1px solid black;
+	width: 400px;
+	box-sizing: border-box;
+	height: 300px;
+	position: relative;
+	overflow: auto;
+}
+.box6{
+	background-color: green;
+	height: 35px;
+	width: 60px;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+@media (max-width: 991px) and (min-width: 768)
+
+{
+	body{
+		margin: 0px;
+		padding: 10px 10px 10px 10px;
+
+	}
+	.box1{
+	margin: 10px;
+	float: left;
+	background-color: lightblue;
+	padding: 30px 5px 0px 10px;
+	border: 1px solid black;
+	width: 400px;
+	box-sizing: border-box;
+	height: 300px;
+	position: relative;
+	font-size: 70%
+	overflow: auto;
+		
+}
+.box4{
+	background-color: red;
+	height: 20px;
+	width: 20%;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+.box2{
+	margin: 10px;
+	float: left;
+	background-color: grey;
+	padding: 23px 5px 0px 5px;
+	border: 1px solid black;
+	width: 40%;
+	box-sizing: border-box;
+	height: 200px;
+	position: relative;
+	font-size: 70%
+	overflow: auto;
+		
+}
+.box5{
+	background-color: green;
+	height: 20px;
+	width: 20%;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+.box3{
+	margin: 10px;
+	float: left;
+	background-color: red;
+	padding: 23px 5px 0px 5px;
+	border: 1px solid black;
+	width: 83%;
+	box-sizing: border-box;
+	height: 200px;
+	position: relative;
+	font-size: 70%
+	overflow: auto;
+		
+}
+.box6{
+	background-color: green;
+	height: 20px;
+	width: 20%;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+}
+@media(max-width: 767)
+{
+	body{
+		margin: 10px
+		padding:10px 10px 10px 10px;
+
+	}
+.box1{
+	/*margin: 10px;*/
+	background-color: lightblue;
+	padding: 23px 5px 10px 10px;
+	border: 1px solid black;
+	width: 100%;
+	box-sizing: border-box;
+	height: 200px;
+	float: left;
+	position: relative;
+	font-size: 70%;
+	overflow: auto;
+		
+}
+.box4{
+	background-color: red;
+	height: 20px;
+	width: 20%;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+.box2{
+	/*margin: 10px;*/
+	background-color: grey;
+	padding: 23px 5px 0px 10px;
+	border: 1px solid black;
+	width: 100%;
+	box-sizing: border-box;
+	height: 200px;
+	float: left;
+	position: relative;
+	font-size: 70%;
+	overflow: auto;
+		
+}
+.box5{
+	background-color: green;
+	height: 20px;
+	width: 20%;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+.box3{
+	/*margin: 10px;*/
+	background-color: red;
+	padding: 23px 5px 0px 10px;
+	border: 1px solid black;
+	width: 100%;
+	box-sizing: border-box;
+	height: 200px;
+	float: left;
+	position: relative;
+	font-size: 70%;
+	overflow: auto;
+		
+}
+.box5{
+	background-color: green;
+	height: 20px;
+	width: 20%;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+}
+
